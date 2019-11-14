@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始搜索"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <Button
+        android:id="@+id/scan_ble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan BLE"/>
+
+    <Button
+        android:id="@+id/gatt_server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Gatt Server"/>
+
+</LinearLayout>
